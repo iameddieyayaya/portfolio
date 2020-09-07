@@ -1,22 +1,51 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import styled from "styled-components"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
-)
+import Projects from '../components/projects'
+import Eddie from '../components/eddie'
+
+import PROJECTS_DATA from '../pages/projects.data'
+
+
+const Wrapper = styled.div`
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  top: 0;
+  margin: 0;
+  padding: 0;
+
+  /* Screen >= Tablets */
+  @media (max-width: 768px) {
+   display: block;
+}
+`
+
+
+const IndexPage = () => {
+  
+  return (
+    <Layout>
+      <SEO title="Home" />
+
+      <Eddie />
+      <h1>Projects</h1>
+      <Wrapper>
+        {
+          PROJECTS_DATA.items.map(({id, link, image, title, description }) => 
+              <Projects key={id} link={link} image={image} title={title} description={description} />
+          )
+        }
+      </Wrapper>
+
+      
+    </Layout>
+  )
+
+}
 
 export default IndexPage
