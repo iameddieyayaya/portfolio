@@ -11,7 +11,7 @@ const Header = ({ siteTitle }) => (
       <h1>{siteTitle}</h1>
       <p
       > 
-      Hi, I'm Eduardo, a front end software developer. Eager to learn and be more tech-y.
+      Hi, I'm Eduardo, a front end software developer. Eager to learn and be more techie.
       </p>
           <a href="mailto: eddieegomez4@gmail.com">Email</a>
           <br />
