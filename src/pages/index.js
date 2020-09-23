@@ -6,9 +6,8 @@ import SEO from "../components/seo"
 import styled from "styled-components"
 
 import Projects from '../components/projects'
-import Eddie from '../components/eddie'
 
-import PROJECTS_DATA from '../pages/projects.data'
+import PROJECTS_DATA from '../components/projects.data'
 
 
 const Wrapper = styled.div`
@@ -37,7 +36,6 @@ const IndexPage = () => {
       
       <Container>
 
-        <Eddie />
         <h1>Projects</h1>
         <Wrapper>
           {
