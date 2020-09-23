@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import githubLogo from '../images/Github-Mark-64px.png'
+import githubLogo from '../images/GitHub-Mark-64px.png'
 
 const Wrapper = styled.div`
     width: 100%;
