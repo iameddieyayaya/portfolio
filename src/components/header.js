@@ -1,6 +1,8 @@
 import PropTypes from "prop-types"
 import React from "react"
 
+import resume from '../GomezE_Dev_2020_09.pdf'
+
 const Header = ({ siteTitle }) => (
 
       <header
@@ -18,6 +20,8 @@ const Header = ({ siteTitle }) => (
           <a href="https://github.com/iameddieyayaya" target="_blank" rel="noreferrer">Github</a>
           <br />
           <a href="https://www.linkedin.com/in/eduardo-gomez-ab3464a5/" target="_blank" rel="noreferrer">Linkedin</a>
+          <br />
+          <a href={resume}>Resume</a>
           
     </header>
 )
