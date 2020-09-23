@@ -25,22 +25,28 @@ const Wrapper = styled.div`
 }
 `
 
+const Container = styled.div`
+
+`
 
 const IndexPage = () => {
   
   return (
     <Layout>
       <SEO title="Home" />
+      
+      <Container>
 
-      <Eddie />
-      <h1>Projects</h1>
-      <Wrapper>
-        {
-          PROJECTS_DATA.items.map(({id, link, image, title, description }) => 
-              <Projects key={id} link={link} image={image} title={title} description={description} />
-          )
-        }
-      </Wrapper>
+        <Eddie />
+        <h1>Projects</h1>
+        <Wrapper>
+          {
+            PROJECTS_DATA.items.map(({id, link, image, title, description, github }) => 
+                <Projects key={id} link={link} image={image} title={title} description={description} github={github} />
+            )
+          }
+        </Wrapper>
+      </Container>
 
       
     </Layout>

@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import githubLogo from '../images/Github-Mark-64px.png'
 
 const Wrapper = styled.div`
     width: 100%;
@@ -27,13 +28,15 @@ const P = styled.p`
 `
 
 const Projects = ({image, link, title, description, github}) => {
-    console.log({image})
 
     return (
         <Wrapper>
             <a href={link} target="_blank" rel="noreferrer"><img src={image} /></a>
             <div>
                     <a href={link} target="_blank" rel="noreferrer">{title}</a>
+                    <a href={github} target="_blank" rel="noreferrer">
+                        <img src={githubLogo} style={{ maxWidth: '24px', maxHeight: '24px', marginLeft: '10px', cursor: 'pointer'}} alt="Logo" />
+                    </a>
                     <P>{description}</P>
             </div>
         </Wrapper>
