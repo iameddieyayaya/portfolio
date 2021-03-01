@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import React from "react"
 
-import resume from '../GomezE_Dev_2020_09.pdf'
+import resume from '../GomezE_Dev_2021_v2.pdf'
 
 const Header = ({ siteTitle }) => (
 
@@ -13,7 +13,7 @@ const Header = ({ siteTitle }) => (
       <h1>{siteTitle}</h1>
       <p
       > 
-      Hi, I'm Eduardo, a front end software developer. Eager to learn and be more techie.
+      Hi, I'm Eduardo, a frontend developer. Eager to learn and be more techie.
       </p>
           <a href="mailto: eddieegomez4@gmail.com">Email</a>
           <br />
@@ -21,7 +21,7 @@ const Header = ({ siteTitle }) => (
           <br />
           <a href="https://www.linkedin.com/in/eduardo-gomez-ab3464a5/" target="_blank" rel="noreferrer">Linkedin</a>
           <br />
-          <a href={resume}>Resume</a>
+          <a href={resume} target="_blank" rel="noreferrer" >Resume</a>
           
     </header>
 )

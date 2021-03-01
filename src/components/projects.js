@@ -11,7 +11,6 @@ const Wrapper = styled.div`
     img {
         width: 350px;
         height: 200px;
-
     }
 
     a {
@@ -27,7 +26,14 @@ const P = styled.p`
       width: 275px;
 `
 
-const Projects = ({image, link, title, description, github}) => {
+const Psm = styled.p`
+      font-size: 0.5rem;
+      text-align: left;
+      width: 275px;
+      margin: 0;
+`
+
+const Projects = ({image, link, title, description, github, tech}) => {
 
     return (
         <Wrapper>
@@ -37,7 +43,10 @@ const Projects = ({image, link, title, description, github}) => {
                     <a href={github} target="_blank" rel="noreferrer">
                         <img src={githubLogo} style={{ maxWidth: '24px', maxHeight: '24px', marginLeft: '10px', cursor: 'pointer'}} alt="Logo" />
                     </a>
-                    <P>{description}</P>
+                    <P>{description}
+                    <Psm>Tech: {tech}</Psm>
+                    </P>
+                    
             </div>
         </Wrapper>
     )

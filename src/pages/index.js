@@ -39,8 +39,8 @@ const IndexPage = () => {
         <h1>Projects</h1>
         <Wrapper>
           {
-            PROJECTS_DATA.items.map(({id, link, image, title, description, github }) => 
-                <Projects key={id} link={link} image={image} title={title} description={description} github={github} />
+            PROJECTS_DATA.items.map(({id, link, image, title, description, github, builtOn }) => 
+                <Projects key={id} link={link} image={image} title={title} description={description} github={github} tech={builtOn}/>
             )
           }
         </Wrapper>

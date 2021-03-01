@@ -592,7 +592,14 @@ pre tt:after {
 }
 
 
+body {
+  background: #7550A6;
+  color: white;
+}
 
+a {
+  color: white;
+}
 
 @media only screen and (max-width: 480px) {
   html {
