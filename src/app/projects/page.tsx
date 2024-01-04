@@ -5,29 +5,37 @@ import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import whohasmyshit from '@/images/screenshots/whohasmyshit.png'
 import jampak from '@/images/screenshots/jampak.png'
+import obs from '@/images/screenshots/obs.png'
 
 const projects = [
   {
     name: 'Jampak',
     description:
-      'Application to support artist find alternative venues, and for people who have alternative venues to host artists.',
+      'Application to support artist find alternative venues, and for people who have alternative venues to host artists. - WIP',
     link: { href: 'https://jampak.io', label: 'jampak.io' },
     logo: jampak,
   },
   {
     name: `Who has my shit!`,
     description:
-      'Application tool to lend or borrow gear from friends with automated reminders',
+      'Application tool to lend or borrow gear from friends with automated reminders - WIP',
     link: { href: 'https://github.com/iameddieyayaya/who-has-my-shit', label: 'github.com' },
     logo: whohasmyshit,
+  },
+  {
+    name: 'Oblique Strategies',
+    description: 'Inpsired by Brian Eno\'s Oblique Stategies cards to prevent writers/artist block. Orignally project had an express api hosted on heroku.',
+    link: {
+      href: 'https://github.com/iameddieyayaya/ObliqueStrategies', label: 'github.com'
+    },
+    logo: obs,
   },
   {
     name: 'Crwn Apparel',
     description: 'Custom clothing mock e-commerce app. Built with React + Firebase + Stripe + Redux',
     link: { href: 'https://github.com/iameddieyayaya/crwn-apparel', label: 'github.com' },
     logo: 'https://i.ibb.co/Lhqw0md/crwnapperal.png',
-  },
-  {
+  }, {
     name: 'Trinity',
     description: `An application that trades/mines flo and raven crypto currencies. Using the Mining Rig Rental, Nicehash, and Bittrex APIs.`,
     link: { href: 'https://github.com/iameddieyayaya/trinity', label: 'github.com' },
@@ -67,7 +75,7 @@ export default function Projects() {
               <Image
                 src={project.logo}
                 alt=""
-              
+
                 fill
               />
             </div>
