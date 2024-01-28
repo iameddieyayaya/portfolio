@@ -74,54 +74,54 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              As a self-taught engineer, I&apos;m constantly seeking opportunities to 
-              expand my horizons and delve into the ever-evolving world of technology. 
-              I find immense joy in the art of tinkering. Also, enjoy building, 
-              and piloting FPV drones through the open skies.
+              As a self-taught engineer, I&apos;m constantly seeking opportunities to
+              expand my horizons, keep learning, and delve into the ever-evolving world of technology.
+              I find immense joy in the art of tinkering with software. As well as, enjoy building,
+              and piloting FPV drones, learning to drift on the racing simulator, and going out to concerts.
             </p>
             <p>
-            My life is punctuated by the rhythms of music, 
-            and I&apos;m an ardent enthusiast of concerts. 
-            Supporting my musical friends in their creative endeavors, 
-            especially my side project, Jampak, is a passion close to my heart.
+              My life is punctuated by the rhythms of music,
+              and I&apos;m an ardent enthusiast of concerts.
+              Supporting my musical friends in their creative endeavors,
+              working on a side project, Jampak, is a passion close to my heart.
             </p>
             <p>
-            Additionally, I have a keen eye for capturing the raw energy of live performances through 
-            my lens, whether it&apos;s 
-            shooting videos or engaging in the art of concert photography.
+              Additionally, I have a keen eye for capturing the raw energy of live performances through
+              my lens, whether it&apos;s
+              shooting videos or engaging in the art of concert photography.
             </p>
             <p>
-            In the grand symphony of life, I play my unique tune, 
-            combining my love for technology, music, 
-            and space to create a melody that resonates with the future
+              In the grand symphony of life, I play my unique tune,
+              combining my love for technology, music,
+              and space to create a melody that resonates with the future,
             </p>
 
           </div>
         </div>
         <div className="lg:pl-20">
           <ul role="list">
-            <SocialLink 
-                          href="https://twitter.com/iameddieyayaya"
+            <SocialLink
+              href="https://twitter.com/iameddieyayaya"
 
-            icon={TwitterIcon}>
+              icon={TwitterIcon}>
               Follow on Twitter
             </SocialLink>
-            <SocialLink 
-                          href="https://www.instagram.com/iameddieyayaya/"
+            <SocialLink
+              href="https://www.instagram.com/iameddieyayaya/"
 
-            icon={InstagramIcon} className="mt-4">
+              icon={InstagramIcon} className="mt-4">
               Follow on Instagram
             </SocialLink>
-            <SocialLink 
-                          href="https://github.com/iameddieyayaya"
+            <SocialLink
+              href="https://github.com/iameddieyayaya"
 
-            icon={GitHubIcon} className="mt-4">
+              icon={GitHubIcon} className="mt-4">
               Follow on GitHub
             </SocialLink>
-            <SocialLink 
-                          href="https://www.linkedin.com/in/gomezee/"
+            <SocialLink
+              href="https://www.linkedin.com/in/gomezee/"
 
-             icon={LinkedInIcon} className="mt-4">
+              icon={LinkedInIcon} className="mt-4">
               Follow on LinkedIn
             </SocialLink>
             <SocialLink
