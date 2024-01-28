@@ -6,6 +6,9 @@ import { SimpleLayout } from '@/components/SimpleLayout'
 import whohasmyshit from '@/images/screenshots/whohasmyshit.png'
 import jampak from '@/images/screenshots/jampak.png'
 import obs from '@/images/screenshots/obs.png'
+import ac from '@/images/screenshots/ac.png'
+import hdzero from '@/images/screenshots/hdzero.webp'
+import rickandmorty from '@/images/screenshots/rickandmorty.png'
 
 const projects = [
   {
@@ -24,22 +27,48 @@ const projects = [
   },
   {
     name: 'Oblique Strategies',
-    description: 'Inpsired by Brian Eno\'s Oblique Stategies cards to prevent writers/artist block. Orignally project had an express api hosted on heroku.',
+    description: 'Inpsired by Brian Eno\'s Oblique Stategies cards to prevent writers/artist block. Orignally project had an node/express api hosted on heroku free tier.',
     link: {
       href: 'https://github.com/iameddieyayaya/ObliqueStrategies', label: 'github.com'
     },
     logo: obs,
+  }, {
+    name: "Dedicated Gaming Servers",
+    description: "Created a dedicated server for friends to play Assetto Corsa and PalWorld. AWS EC2 Ubuntu Server",
+    link: {
+      href: "https://github.com/iameddieyayaya/ACServer",
+      label: "github.com"
+    },
+    logo: ac,
   },
   {
-    name: 'Crwn Apparel',
-    description: 'Custom clothing mock e-commerce app. Built with React + Firebase + Stripe + Redux',
-    link: { href: 'https://github.com/iameddieyayaya/crwn-apparel', label: 'github.com' },
-    logo: 'https://i.ibb.co/Lhqw0md/crwnapperal.png',
+    name: "HDZero Mobile App",
+    description: "React Native application to interface with HDZero open-source goggles for FPV Drones. Able to connect to goggles via wifi and stream video to app.",
+    link: {
+      href: "https://github.com/iameddieyayaya/HDZeroMobile",
+      label: "github.com"
+    },
+    logo: hdzero,
   }, {
     name: 'Trinity',
     description: `An application that trades/mines flo and raven crypto currencies. Using the Mining Rig Rental, Nicehash, and Bittrex APIs.`,
     link: { href: 'https://github.com/iameddieyayaya/trinity', label: 'github.com' },
     logo: 'https://i.ibb.co/Th8Bbyb/screenshot1.png',
+  },
+  {
+    name: "Morty-Dex",
+    description: "Morty-Dex is a pokedex theme Rick and Morty character lookup. Project built in React.js and searches the Rick and Morty API for characters.",
+    link: {
+      href: "https://rickandmortydex.netlify.app/",
+      label: "rickandmortydex.netlify.app"
+    },
+    logo: rickandmorty,
+  },
+  {
+    name: 'Crwn Apparel',
+    description: 'Full Stack course project. Built with React + Firebase + Stripe + Redux',
+    link: { href: 'https://github.com/iameddieyayaya/crwn-apparel', label: 'github.com' },
+    logo: 'https://i.ibb.co/Lhqw0md/crwnapperal.png',
   },
 ]
 
