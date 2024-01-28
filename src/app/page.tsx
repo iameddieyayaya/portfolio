@@ -199,7 +199,7 @@ export default async function Home() {
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I&apos;m Eddie, a passionate software engineer with a love for all things tech and a music. <br />
-            When I&apos;m not at my desk, you can catch me in the air; flying FPV drones. < br />
+            When I&apos;m not at my desk, you can catch me in the air; flying FPV drones or at concerts. < br />
             I&apos;m dedicated to leveraging technology to enhance experiences, both in the digital realm and beyond.
           </p>
           <div className="mt-6 flex gap-6">
