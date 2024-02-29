@@ -9,6 +9,7 @@ import obs from '@/images/screenshots/obs.png'
 import ac from '@/images/screenshots/ac.png'
 import hdzero from '@/images/screenshots/hdzero.webp'
 import rickandmorty from '@/images/screenshots/rickandmorty.png'
+import reactopenai from '@/images/screenshots/reactopenai.png'
 
 const projects = [
   {
@@ -19,11 +20,18 @@ const projects = [
     logo: jampak,
   },
   {
-    name: `Who has my shit!`,
+    name: `Who has my stuff!`,
     description:
       'Application tool to lend or borrow gear from friends with automated reminders - WIP',
     link: { href: 'https://github.com/iameddieyayaya/who-has-my-shit', label: 'github.com' },
     logo: whohasmyshit,
+  },
+  {
+    name: `React OpenAI Vision`,
+    description:
+      'A React app that uses OpenAI\'s Vision API to analyze images.',
+    link: { href: 'https://github.com/iameddieyayaya/openai-vision', label: 'github.com' },
+    logo: reactopenai,
   },
   {
     name: 'Oblique Strategies',
