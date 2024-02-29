@@ -10,6 +10,7 @@ import ac from '@/images/screenshots/ac.png'
 import hdzero from '@/images/screenshots/hdzero.webp'
 import rickandmorty from '@/images/screenshots/rickandmorty.png'
 import reactopenai from '@/images/screenshots/reactopenai.png'
+import matchinggame from '@/images/screenshots/matchinggame.png'
 
 const projects = [
   {
@@ -71,6 +72,15 @@ const projects = [
       label: "rickandmortydex.netlify.app"
     },
     logo: rickandmorty,
+  },
+  {
+    name: "Card Matching Game",
+    description: "Card Matching Game. Project using html, css, and vanilla javascript.",
+    link: {
+      href: "https://github.com/iameddieyayaya/matching-game",
+      label: "github.com"
+    },
+    logo: matchinggame,
   },
   {
     name: 'Crwn Apparel',
