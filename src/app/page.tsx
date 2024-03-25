@@ -145,7 +145,7 @@ function Resume() {
         ))}
       </ol>
       <a
-        href={`${process.env.NEXT_PUBLIC_SITE_URL}/GomezE_2023.pdf`}
+        href={`${process.env.NEXT_PUBLIC_SITE_URL}/GomezE_2024_01.pdf`}
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -153,7 +153,7 @@ function Resume() {
           download
           variant="secondary" 
           className="group mt-6 w-full">
-          Download CV
+          Download Resume
           <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
         </Button>
       </a>
