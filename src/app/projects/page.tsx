@@ -32,7 +32,7 @@ const projects = [
     name: `Tic Tac Toe Python`,
     description:
       'Simple Tic Tac Toe Game in Python using pygame',
-    link: { href: 'https://github.com/iameddieyayaya/who-has-my-shit', label: 'github.com' },
+    link: { href: 'https://github.com/iameddieyayaya/tic-tac-toe-', label: 'github.com' },
     logo: tictactoe,
   },
   {
