@@ -12,6 +12,7 @@ import rickandmorty from '@/images/screenshots/rickandmorty.png'
 import reactopenai from '@/images/screenshots/reactopenai.png'
 import matchinggame from '@/images/screenshots/matchinggame.png'
 import tictactoe from "@/images/screenshots/tic-tac-toe.png"
+import flaskcrud from "@/images/screenshots/flaskcrud.png"
 
 const projects = [
   {
@@ -27,6 +28,13 @@ const projects = [
       'Application tool to lend or borrow gear from friends with automated reminders - WIP',
     link: { href: 'https://github.com/iameddieyayaya/who-has-my-shit', label: 'github.com' },
     logo: whohasmyshit,
+  },
+  {
+    name: `Next.js and Flask Docker Application`,
+    description:
+      'This project demonstrates a web application built with Next.js for the frontend, Flask for the backend, and Docker for containerization.',
+    link: { href: 'https://github.com/iameddieyayaya/python-flask-crud', label: 'github.com' },
+    logo: flaskcrud,
   },
   {
     name: `Tic Tac Toe Python`,
