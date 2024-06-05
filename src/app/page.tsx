@@ -145,7 +145,7 @@ function Resume() {
         ))}
       </ol>
       <a
-        href={`${process.env.NEXT_PUBLIC_SITE_URL}/GomezE_2024_01.pdf`}
+        href={`/GomezE_2024.pdf`}
         target="_blank"
         rel="noopener noreferrer"
       >
