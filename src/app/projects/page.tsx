@@ -13,6 +13,7 @@ import reactopenai from '@/images/screenshots/reactopenai.png'
 import matchinggame from '@/images/screenshots/matchinggame.png'
 import tictactoe from "@/images/screenshots/tic-tac-toe.png"
 import flaskcrud from "@/images/screenshots/flaskcrud.png"
+import resumeauditai from "@/images/screenshots/resumeauditai.png"
 
 const projects = [
   {
@@ -28,6 +29,13 @@ const projects = [
       'Application tool to lend or borrow gear from friends with automated reminders - WIP',
     link: { href: 'https://github.com/iameddieyayaya/who-has-my-shit', label: 'github.com' },
     logo: whohasmyshit,
+  },
+  {
+    name: `AI Resume Audit`,
+    description:
+      `This project leverages OpenAI's API to analyze and provide feedback on resumes.`,
+    link: { href: 'https://resume-audit-ai.vercel.app/', label: 'resume-audit-ai.vercel.app' },
+    logo: resumeauditai,
   },
   {
     name: `Next.js and Flask Docker Application`,
