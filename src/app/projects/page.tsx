@@ -14,6 +14,7 @@ import matchinggame from '@/images/screenshots/matchinggame.png'
 import tictactoe from "@/images/screenshots/tic-tac-toe.png"
 import flaskcrud from "@/images/screenshots/flaskcrud.png"
 import resumeauditai from "@/images/screenshots/resumeauditai.png"
+import lyricsgenerator from "@/images/screenshots/lyricsgenerator.png"
 
 const projects = [
   {
@@ -36,6 +37,13 @@ const projects = [
       `This project leverages OpenAI's API to analyze and provide feedback on resumes.`,
     link: { href: 'https://resume-audit-ai.vercel.app/', label: 'resume-audit-ai.vercel.app' },
     logo: resumeauditai,
+  },
+  {
+    name: `AI Lyric Generator`,
+    description:
+      `This project leverages OpenAI's API to generate lyrics based on prompt.`,
+    link: { href: 'https://lyrics-generator-ai.vercel.app/', label: 'lyrics-generator-ai.vercel.app' },
+    logo: lyricsgenerator,
   },
   {
     name: `Next.js and Flask Docker Application`,
