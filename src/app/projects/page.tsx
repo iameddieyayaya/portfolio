@@ -70,7 +70,7 @@ const projects = [
     name: 'Oblique Strategies',
     description: 'Inpsired by Brian Eno\'s Oblique Stategies cards to prevent writers/artist block. Orignally project had an node/express api hosted on heroku free tier.',
     link: {
-      href: 'https://github.com/iameddieyayaya/ObliqueStrategies', label: 'github.com'
+      href: 'https://the-oblique-strategies.vercel.app/', label: 'the-oblique-strategies.vercel.app'
     },
     logo: obs,
   }, {
