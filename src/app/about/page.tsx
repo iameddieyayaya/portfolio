@@ -11,6 +11,7 @@ import {
   TwitterIcon,
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.webp'
+import onehundredDaysOfCode from '@/images/photos/100daysofcode.png'
 
 function SocialLink({
   className,
@@ -50,7 +51,7 @@ function MailIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'I’m Spencer Sharp. I live in New York City, where I design the future.',
+    'I’m Eddie Gomez. Software Engineer form Chula Vista, CA',
 }
 
 export default function About() {
@@ -69,58 +70,42 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            I’m Eddie Gomez. I live in Chula Vista, where I engineer the
-            future.
+            I’m Eddie Gomez. Software Engineer from Chula Vista, CA
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
+              Self-taught software engineer. Made the career transition back in 2019.
+              Background in Audio Engineering.
+              Worked in Audio/Video and Live Sound
+              during my lunch breaks and downtime; I learned to code.
+              Started with resources like Freecodecamp and The Odin Project. Used 100 Days of Code to stay motivated.
               As a self-taught engineer, I&apos;m constantly seeking opportunities to
               expand my horizons, keep learning, and delve into the ever-evolving world of technology.
-              I find immense joy in the art of tinkering with software. As well as, enjoy building,
-              and piloting FPV drones, learning to drift on the racing simulator, and going out to concerts.
-            </p>
-            <p>
-              My life is punctuated by the rhythms of music,
-              and I&apos;m an ardent enthusiast of concerts.
-              Supporting my musical friends in their creative endeavors,
-              working on a side project, Jampak, is a passion close to my heart.
-            </p>
-            <p>
-              Additionally, I have a keen eye for capturing the raw energy of live performances through
-              my lens, whether it&apos;s
-              shooting videos or engaging in the art of concert photography.
-            </p>
-            <p>
-              In the grand symphony of life, I play my unique tune,
-              combining my love for technology, music,
-              and space to create a melody that resonates with the future,
+              I find immense joy in the art of tinkering and experimenting with software.
             </p>
 
+            <Image src={onehundredDaysOfCode} alt="100 Days of Code" className="w-full" />
           </div>
         </div>
         <div className="lg:pl-20">
           <ul role="list">
             <SocialLink
-              href="https://twitter.com/iameddieyayaya"
-
+              href="https://x.com/iameddieyayaya"
               icon={TwitterIcon}>
               Follow on Twitter
             </SocialLink>
             <SocialLink
               href="https://www.instagram.com/iameddieyayaya/"
-
               icon={InstagramIcon} className="mt-4">
               Follow on Instagram
             </SocialLink>
             <SocialLink
               href="https://github.com/iameddieyayaya"
-
               icon={GitHubIcon} className="mt-4">
               Follow on GitHub
             </SocialLink>
             <SocialLink
               href="https://www.linkedin.com/in/gomezee/"
-
               icon={LinkedInIcon} className="mt-4">
               Follow on LinkedIn
             </SocialLink>
