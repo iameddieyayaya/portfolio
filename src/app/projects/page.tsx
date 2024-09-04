@@ -20,7 +20,7 @@ const projects = [
   {
     name: 'Jampak',
     description:
-      'Application to support artist find alternative venues, and for people who have alternative venues to host artists. - WIP',
+      'Application to support artist find alternative venues, and for people who have alternative venues to host artists.',
     link: { href: 'https://jampak.io', label: 'jampak.io' },
     logo: jampak,
   },

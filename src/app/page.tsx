@@ -114,10 +114,16 @@ function Role({ role }: { role: Role }) {
 function Resume() {
   let resume: Array<Role> = [
     {
+      company: 'Jampak',
+      title: 'Software Engineer',
+      start: '2023',
+      end: '2024'
+    },
+    {
       company: 'Zeal',
       title: 'Software Engineer',
       start: '2021',
-      end: '2024'
+      end: '2023'
     },
     {
       company: 'C47 Studios',
